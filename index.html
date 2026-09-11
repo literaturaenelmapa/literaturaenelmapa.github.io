@@ -646,7 +646,7 @@ td#insta_url {
         function style_Literaturaenelmapa_2_0() {
             return {
                 pane: 'pane_Literaturaenelmapa_2',
-                radius: 8.0,
+                radius: (window.innerWidth <= 768 ? 13.0 : 8.0),
                 opacity: 1,
                 color: 'rgba(255,255,255,1.0)',
                 dashArray: '',
